@@ -16,5 +16,7 @@ end
 
 def find_the_cheese(snacks)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  snacks.iclude 
+  
   snacks.find { |snack| snack = "#{cheese_types}"}
 end
